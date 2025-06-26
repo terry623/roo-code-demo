@@ -1,0 +1,28 @@
+# 忽略 node_modules 依賴目錄
+node_modules/
+
+# 忽略所有 log 檔案
+*.log
+
+# 忽略依賴鎖定檔
+pnpm-lock.yaml
+
+# 忽略 git 相關檔案
+.git/
+.gitignore
+
+# 忽略環境變數與本地設定
+.env
+*.local
+
+# 忽略 public 目錄下所有檔案，但保留 vite.svg
+public/*
+!public/vite.svg
+
+# 忽略 assets 目錄下所有圖片，但保留 react.svg
+src/assets/*
+!src/assets/react.svg
+
+# 例外：保留 README.md、index.html
+!README.md
+!index.html
